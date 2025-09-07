@@ -1,13 +1,13 @@
 # ThesisCode
 
 ### Folder Structure
-Data : contains code for splitting the data into training and evaluation data and a script for creating datasets with lag features
-XGB: code for XGBoost, both lag and no lag variants, with a notebook for event detection each.
-RF: code for Random Forest, both lag and no lag variants. Event detection plots are created through a second script.
-LSTM: code for supervised LSTM. Event detection plots are created through a second script.
-IF: code for Isolation Forest, both lag and no lag variants, with a notebook for event detection each.
-MBKM: code for MiniBatch K-Means, both lag and no lag variants, with a notebook for event detection each.
-LSTMAE: code for LSTM Autoencoder, event detection plots are in the same script.
+- Data : contains code for splitting the data into training and evaluation data and a script for creating datasets with lag features
+- XGB: code for XGBoost, both lag and no lag variants, with a notebook for event detection each.
+- RF: code for Random Forest, both lag and no lag variants. Event detection plots are created through a second script.
+- LSTM: code for supervised LSTM. Event detection plots are created through a second script.
+- IF: code for Isolation Forest, both lag and no lag variants, with a notebook for event detection each.
+- MBKM: code for MiniBatch K-Means, both lag and no lag variants, with a notebook for event detection each.
+- LSTMAE: code for LSTM Autoencoder, event detection plots are in the same script.
 
 ### Notes
 - The scripts/notebooks are the final versions, there were many edits/ scripts and other code tests before that are not responsible for final results. 
