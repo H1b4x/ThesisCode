@@ -14,5 +14,6 @@
 - final results(output of each script) are not included here, but these were presented in the bachelor's thesis, only the notebooks retain their output.
 - due to the long process and working on different models when trying to group the relevant code for each results, I was sometimes confused on what code produced which result exactly. I tried to find the exact relevant scripts and hopefully I found the right ones but it is possible that some of the code included here is an older edit or a newer edit(test) than what was used for the final results.
 - Each model has a main script, the script that does the hyperparameter search with optuna, but for some models there are two scripts. The second is a continuation of the main script and uses the hyperparameters produced by it. This is done to create relevant plots or because the main script crashed at the end and didn't train the final model so a new script was made to continue.
+- Main scripts mostly follow the same style/pipeline, changes are mostly due to memory limits.
 - Not all plots that are produced using this code were used in the final results.
 - All scripts should be ready to run once the paths are matched correctly.
