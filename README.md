@@ -1,7 +1,7 @@
 # ThesisCode
 
 ### Folder Structure
-- Data : contains code for splitting the data into training and evaluation data and a script for creating datasets with lag features
+- Data : contains code for splitting the data into training and evaluation data and a script for creating datasets with lag features.
 - XGB: code for XGBoost, both lag and no lag variants, with a notebook for event detection each.
 - RF: code for Random Forest, both lag and no lag variants. Event detection plots are created through a second script.
 - LSTM: code for supervised LSTM. Event detection plots are created through a second script.
